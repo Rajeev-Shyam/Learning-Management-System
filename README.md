@@ -2,7 +2,7 @@
 
 A complete Learning Management System built with React, Node.js, Express, and PostgreSQL.
 
-## 🚀 Features
+##Features
 
 ### Authentication & Authorization
 - JWT-based authentication
@@ -36,13 +36,13 @@ A complete Learning Management System built with React, Node.js, Express, and Po
 - Support for courses, lessons, enrollments, progress tracking
 - Extended features: wishlist, cart, assignments, quizzes, achievements, messages, ratings, coupons, payouts
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v14 or higher)
 - PostgreSQL (v12 or higher)
 - npm or yarn
 
-## 🛠️ Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -76,7 +76,7 @@ cd lms-frontend
 npm install
 ```
 
-## 🏃‍♂️ Running the Application
+## Running the Application
 
 ### Start Backend (Terminal 1)
 ```bash
@@ -97,7 +97,7 @@ npm run dev
 
 The frontend will start on http://localhost:5173
 
-## 📊 Database Schema
+## Database Schema
 
 The application automatically creates the following tables:
 
@@ -121,7 +121,7 @@ The application automatically creates the following tables:
 - **coupons**: Discount coupons
 - **payouts**: Instructor payout tracking
 
-## 🎨 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** - UI library
@@ -139,7 +139,7 @@ The application automatically creates the following tables:
 - **bcrypt** - Password hashing
 - **CORS** - Cross-origin resource sharing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Code-lms/
@@ -187,7 +187,7 @@ Code-lms/
     └── vite.config.js
 ```
 
-## 🔐 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /auth/register` - Register new user
@@ -214,14 +214,14 @@ Code-lms/
 - `GET /student/dashboard-data` - Student dashboard data
 - `GET /instructor/dashboard-data` - Instructor dashboard data
 
-## 🎯 Default Users
+## Default Users
 
 After setup, you can create users through the registration page:
 - **Students** - Can enroll in courses and track progress
 - **Instructors** - Can create and manage courses
 - **Admins** - Can manage all users and approve courses
 
-## 🎨 UI Design
+## UI Design
 
 The application features a modern, clean design with:
 - Responsive layout for mobile, tablet, and desktop
@@ -231,14 +231,14 @@ The application features a modern, clean design with:
 - Professional shadows and borders
 - Intuitive navigation with sidebar and navbar
 
-## 🔄 Data Flow
+## Data Flow
 
 1. **User Registration/Login** → JWT token stored in localStorage
 2. **Dashboard Access** → Role-based routing to appropriate dashboard
 3. **Data Fetching** → Axios with Bearer token authentication
 4. **Real-time Updates** → Dashboard data refreshed on actions
 
-## 📝 Development Notes
+## Development Notes
 
 - All database tables are created automatically on first run
 - JWT tokens expire based on JWT_EXPIRES_IN setting
@@ -246,7 +246,7 @@ The application features a modern, clean design with:
 - Backend uses proper error handling and validation
 - CORS is enabled for local development
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 - Course content creation (lessons, videos)
 - Real-time notifications
@@ -257,14 +257,10 @@ The application features a modern, clean design with:
 - Assignment submission interface
 - Quiz taking interface
 
-## 📄 License
+## Contributors
 
-[Your License Here]
+Rajeev Shyam Kumar, OneYesInfotech Technical team
 
-## 👥 Contributors
-
-[Your Name/Team]
-
-## 🤝 Support
+## Support
 
 For issues and questions, please open an issue on the repository.
