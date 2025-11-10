@@ -1,0 +1,29 @@
+{
+  "name": "lms-backend",
+  "version": "1.0.0",
+  "description": "Learning Management System Backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "init-db": "node initDb.js",
+    "create-users": "node createTestUsers.js",
+    "test": "node testDb.js"
+  },
+  "keywords": ["lms", "learning", "education", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "dotenv": "^16.4.7",
+    "cors": "^2.8.5",
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
